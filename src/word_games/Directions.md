@@ -6,7 +6,7 @@ Implement the class `WordGames`.
 
 It should have one instance variable, a `String` called `word`. It holds the word that will be manipulated with the following methods.
 
-The methods should be:
+The methods should be the following:
 
 * A constructor that takes a word to set `word`.
 * `public String scramble()`: Returns a string that scrambles the word by swapping the
