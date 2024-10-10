@@ -1,11 +1,8 @@
 # Unit 2 Class Code
 
 ## First time
-* Fork this repository into your GitHub Account
-* Clone the **forked** repository (not mine) using IntelliJ
-  * File>New>Project from Version Control...>Past the git URL
-* Follow along in class, do code, have fun
-* Push changes back to your repo before leaving class
+* i forked it i REALLY did!!!!! I really forked it!!!
+* Go to **When you get home** section
 
 ## When you get home
 * Open the repo in GitHub if you are using CodeSpaces
