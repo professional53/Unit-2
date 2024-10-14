@@ -21,9 +21,8 @@ public class WordGames
      */
     public String scramble()
     {
-        // switch first half
-        // and second half
-        return "";
+        int half = word.length()/2;
+        return word.substring(half)+word.substring(0,half);
 
     }
 
@@ -37,7 +36,7 @@ public class WordGames
     {
         // Insert insertText at the position
         // insertIdx
-        return "";
+        return word.substring(0,insertIdx)+insertText+word.substring(insertIdx);
 
     }
 
@@ -52,7 +51,8 @@ public class WordGames
     {
         // Insert insertText after the first
         // occurence of the insertChar
-        return "";
+        int Occupy = word.indexOf(insertChar);
+        return word.substring(0,Occupy)+insertText+word.substring(Occupy);
 
     }
 
@@ -60,7 +60,7 @@ public class WordGames
     public String toString()
     {
         // Games[word]
-        return "";
+        return "["+word+"]";
 
     }
 
